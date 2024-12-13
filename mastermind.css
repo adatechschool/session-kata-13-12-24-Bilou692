@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    font-family:cursive
+}
+
+h1{
+    color: goldenrod;
+}
+
+html {
+    background-color: rgb(0, 0, 0);
+}
+
+#game{
+    text-align: center;
+    color: rgb(12, 167, 210); 
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+main {
+    margin: 10px auto;
+}
+
+.try {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left,
+.right {
+    display: flex;
+}
+
+.left > div,
+.right > div {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(174, 174, 174);
+    margin: 5px;
+}
+
+.select-wrapper {
+    border-radius:50%;
+    display:inline-block;
+    overflow:hidden;
+    margin: 5px;
+}
+
+.select-wrapper select {
+    width:35px;
+    height:35px;
+    border:0px;
+    outline:none;
+}
+
+input[type=button] {
+    background-color:rgb(255, 191, 0);
+    cursor: pointer;
+    color: #000000;
+    border-radius: 12px;
+    height:35px;
+    width:100px;
+    margin: 5px auto;
+    transition: 0.5s;
+}
+
+select:hover,
+input:hover {
+    opacity: 0.8;
+}
+
+input[type=button]:active {
+    background-color:rgb(225, 201, 43);
+}
+
+
+
